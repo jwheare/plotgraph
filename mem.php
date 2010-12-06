@@ -11,7 +11,7 @@ function format_size($size) {
 
 function updateChart ($mems) {
     $lowerBound = 0;
-    $upperBound = 2000;
+    $upperBound = 100;
     $width = 350;
     $height = 200;
     $datapoints = isset($_SESSION['argv']) && isset($_SESSION['argv'][1]) ? $_SESSION['argv'][1] : 400;
