@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Memory Usage</title>
+    </head>
+    <body>
+        <img src="mem.jpg" id="plot">
+        <script>
+        setInterval(function () {
+            document.getElementById('plot').src = 'plot.jpg?' + (new Date()).getTime();
+        }, 5000);
+        </script>
+    </body>
+</html>
