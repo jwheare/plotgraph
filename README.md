@@ -7,7 +7,7 @@ Set the PID to the process you want to watch.
 
     PID=38158; \
     DATAPOINTS=400; \
-    WAITTIME=50; \
+    WAITTIME=10; \
     TITLE="Memory Usage"; \
     LOGFILE=mem.log; \
     open mem.html; \
